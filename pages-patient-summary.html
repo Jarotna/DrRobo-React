@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Pages / Login - NiceAdmin Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script language="javascript">
+      $(document).ready(function () {
+          $("#btndisplay").on("click", function () {
+              $("#start").toggle("slow");
+              if ($(this).val() == "+ Start Consultation")
+                  $(this).val("- Stop Consultation");
+              else
+                  $(this).val("+ Start Consultation");
+          });
+      });
+  </script>
+  
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <section class="section register min-vh-100 d-flex flex-column align-items-right justify-content-right">
+        <div class="container">
+          <div class="row justify-content-right">
+
+            <div class="col-lg-1">
+
+              <div class="main-calendar-icon ">
+                <img src="assets/img/main-calendar-icon.svg" class="img-fluid">
+              </div>
+              <div class="main-phone-icon mt-2 ">
+                <img src="assets/img/main-phone-icon.svg" class="img-fluid">
+              </div>
+            </div>
+
+              <div class="borleft dashboard col-lg-5 col-md-6 d-flex flex-column align-items-right justify-content-right">
+             
+
+
+                
+                <div class="card-body pt-3">
+                
+    
+                  <div class="news">
+                    <div class="post-item clearfix">
+                      <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">
+                      <h4>Tony Montana</h4>
+                      <p>Type 2 Diabetes <span class="patienturgentbadge badge">Urgent</span></p>                     
+                    </div>
+
+
+                    <!-- <div style='border: solid 1px #f1f1f1; padding: 10px; margin: 10px 0;'>
+                      <input type="button" value="Hide" id="btndisplay" />
+                      <p id="ptext">Click the above button to hide this paragraph.</p>
+                    </div> -->
+                    
+    
+                    <div class="d-grid gap-2 mt-3 start displayblock">
+                      <input type="button" value="+ Start Consultation" class="btn btn-startconsultation" id="btndisplay" />
+                      <!-- <button class="btn btn-startconsultation" data-toggle="collapse" data-target="#start" type="button">+ Start Consultation</button> -->
+                    </div>
+
+                    <div class="d-grid gap-2 mt-3 pausestop displaynone">
+                      <div class="col-lg-4"> <button class="btn btn-startconsultation" data-toggle="collapse" data-target="#pause" type="button">Pause</button></div>
+                      <div class="col-lg-6"><button class="btn btn-startconsultation" data-toggle="collapse" data-target="#stop" type="button"> - Stop Consultation</button></div>
+                     
+                    </div>
+
+                    <div class="row ">
+                     
+                      <div id="start" class="collapse startconsultationpart mt-3">
+                        <h3>Notes</h3>
+                       <div class="notespart mb-3">
+                          <ul>
+                            <li>Pain is widespread</li>
+                            <li>Persistent exhaustion, sleep and mood disturbances</li>
+                              <li>Multiple new somatic symptoms</li>
+                                <li>Normal C-reactive protein and erythrocyte sedimentation rate</li>
+                          </ul>
+                       </div>
+
+                       <h3>Transcripts</h3>
+                       <div class="card-body bgwhite pt-3 startconsultationchat-frame">
+                        <div class="chat-frame">
+
+                        <div class="row">
+                          <div class="post-item startconsultationchat">
+                            <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">                                       
+                            <p>Hi Dr.Steve</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="post-item startconsultationchatright">                            
+                            <p>Hi Dr.Steve</p>
+                            <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="post-item startconsultationchat">
+                            <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">                                       
+                            <p>Any updates about Tony?</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="post-item startconsultationchatright">
+                            <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">
+                            <p>Tony was having breathing trouble last time. Tony was having breathing trouble last time. Tony was having breathing trouble last time.</p>
+                          </div>
+                        </div>
+
+
+                      
+                  </div>
+
+               
+                  
+</div>
+
+<div class="card-body bgwhite pt-3 displaynone">
+
+
+  <div class="row mt-3">
+    <div class="col-lg-6">
+      <label for="basic-url" class="form-label">Signed By : </label>
+      <select class="form-select" aria-label="Default select example">
+       
+        <option value="1" selected="">Dr. Pamela Smith, 
+          MBBS</option>
+        <option value="2">Dr. Pamela Smith, 
+          MBBS</option>
+        <option value="3">Dr. Pamela Smith, 
+          MBBS</option>
+      </select>
+    </div>
+    <div class="col-lg-6">
+      <label for="basic-url" class="form-label">Date</label>
+      <input type="date" class="form-control">
+    </div>
+
+    
+</div>
+
+
+
+
+
+
+<div class="row mt-3">
+  <div class="col-lg-6">
+    <label for="basic-url" class="form-label">Discharge Status: </label>
+    <select class="form-select" aria-label="Default select example">
+     
+      <option value="1" selected="">Referal</option>
+      <option value="2">Referal</option>
+      <option value="3">Referal</option>
+    </select>
+  </div>
+  <div class="col-lg-6">
+    <label for="basic-url" class="form-label">Referred To:</label>
+    <select class="form-select" aria-label="Default select example">
+       
+      <option value="1" selected="">Dr. Steve Jones, 
+        MD</option>
+      <option value="2">Dr. Steve Jones, 
+        MD</option>
+      <option value="3">Dr. Steve Jones, 
+        MD</option>
+    </select>
+    
+  </div>
+</div>
+
+
+<div class="row mt-3 signandapprove">
+  <div class="col-lg-2">&nbsp;</div>
+  <div class="col-lg-5">
+  
+    <button type="button" class="btn btn-referals-location w100p">
+      <img src="assets/img/print-icon.svg" class="fleft">
+    Print</button>
+  </div>
+  <div class="col-lg-5">
+  
+    <button type="button" class="btn btn-referals-location btn-preview w100p">
+      
+    Sign & Approve</button>
+  </div>
+</div>
+</div>
+                      </div>
+
+
+                      
+                    </div>
+    
+                  </div><!-- End sidebar recent posts-->
+                  <div class="row mt-3">
+
+                    <div class="col-lg-6">
+                      <p class="progressbartop">Glycemic Index (GI)</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="progressbartophighvalue">78GI</p>
+                    </div>
+                  </div>
+
+                  <div class="d-grid gap-2 mt-1">
+                    
+                    <div class="progress">
+                
+                      <div class="progress-bargreen" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Low < 55</div>
+                     <div class="progress-barorange" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">58-59</div>
+                     <div class="progress-barred" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">High > 70</div>
+                                    </div>
+
+
+                  </div>
+
+                  <div class="row mt-1">
+
+                    <div class="col-lg-2">
+                      <p class="progressbarbottom">0</p>
+                    </div>
+                    <div class="col-lg-2">
+                      <p class="progressbarbottom">20</p>
+                    </div>
+                    <div class="col-lg-2">
+                      <p class="progressbarbottom">40</p>
+                    </div>
+                    <div class="col-lg-2">
+                      <p class="progressbarbottom">60</p>
+                    </div>
+                    <div class="col-lg-2">
+                      <p class="progressbarbottom">80</p>
+                    </div>
+                    <div class="col-lg-2">
+                      <p class="progressbarbottom">100</p>
+                    </div>
+                   
+                  </div>
+
+                  <div class="row patienthealthrocord mt-4">
+                    <div class="col-lg-6">
+                                          <div class="card">
+                                            
+                                            
+                                            <div class="d-flex align-items-center risklevelpart">
+                                              <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                                <img src="assets/img/Risk-icon.svg" />
+                                              </div>
+                                              <div class="ps-3">
+                                                <h4 class="tcenter">4</h4>
+                                                <span class="text-success small pt-1 fw-bold">Risk Level</span>
+                          
+                                              </div>
+                                            </div>
+                                
+                                          </div>
+                  
+                                          </div>
+                                          <div class="col-lg-6">
+                                            <div class="card">
+                                              <div class="d-flex align-items-center mentalheath">
+                                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                                  <img src="assets/img/Mental-health.svg" />
+                                                </div>
+                                                <div class="ps-3">
+                                                  <h4 class="tcenter">Good</h4>
+                                                  <span class="text-success small pt-1 fw-bold">Mental Health</span> 
+                            
+                                                </div>
+                                              </div>                                     
+                                  
+                                  
+                                            </div>
+                    
+                                            </div>
+                     
+                                        </div>
+
+
+                                        <div class="row patienthealthrocord borderbloodgroup">
+                                          <div class="col-lg-12">
+                                                                <div class="card">
+                                                                  
+                                                                  
+                                                      
+                                                                    <!-- List group with custom content -->
+                                                                    <ol class="list-group">
+                                                                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details1 ">Blood Group</div>                                
+                                                                       
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details ms-2">B+</div>                                
+                                                                       
+                                                                        </div>
+                                                                        
+                                                                      </li>
+                                                                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details1 ">Visit Complaints</div>                                
+                                                                       
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details ms-2">High Sugar</div>                                
+                                                                       
+                                                                        </div>
+                                                                        
+                                                                      </li>
+                                                                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details1 ">Glucose Values</div>                                
+                                                                       
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details ms-2">350 (30 Jan)</div>                                
+                                                                       
+                                                                        </div>
+                                                                        
+                                                                      </li>
+                                                                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details1 ">Social History</div>                                
+                                                                       
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details ms-2">Alcohol, Tobocoo</div>                                
+                                                                       
+                                                                        </div>
+                                                                        
+                                                                      </li>
+                                                                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details1 ">Allergy List</div>                                
+                                                                       
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details ms-2">Nil (30 Jan)</div>                                
+                                                                       
+                                                                        </div>
+                                                                        
+                                                                      </li>
+                                                                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details1 ">Last Visits (Visits = 30)</div>                                
+                                                                       
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details ms-2">10 A M, 01/30/2022</div>                                
+                                                                       
+                                                                        </div>
+                                                                        
+                                                                      </li>
+                                                                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details1 ">No show Probability</div>                                
+                                                                       
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                        
+                                                                          <div class="patient-record-details ms-2">Low</div>                                
+                                                                       
+                                                                        </div>
+                                                                        
+                                                                      </li>
+                                                                    </ol><!-- End with custom content -->
+                                                      
+                                                                </div>
+                                        
+                                                                </div>
+                                                             
+                                           
+                                                              </div>
+
+                                                              <div class="row patienthealthrocord borderbloodgroup mt-3">
+                                                              <div class="card">
+                                                                <div class="card-body pad0">
+                                                                  <h5 class="card-title roboactionplanh pt-2">Robo Assistant Action Plan</h5>
+                                                    
+                                                                  <!-- List group With Checkboxes and radios -->
+                                                                  <ul class="list-group">
+                                                                    <li class="list-group-item">
+                                                                      <a href="#Specialisits-tabsssss">
+                                                                      <input class="form-check-input fleft me-1" type="checkbox" value="" aria-label="...">
+                                                                      <span class="roboplan1">Refer to specialists for immediate consultation<img src="assets/img/patientpart-rightarrow.svg" class="fright"></span>
+                                                                    </a>
+                                                                    </li>
+                                                                    <li class="list-group-item mb-2">
+                                                                     
+                                                                      <span class="f12 padleft2"><i class="colorinfo bi bi-info-circle"></i>Reference AOA</span>
+                                                                    </li>
+                                                                    <li class="list-group-item">
+                                                                      <input class="form-check-input fleft me-1" type="checkbox" value="" aria-label="...">
+                                                                      <span class="roboplan2">Refer to lab for blood test<img src="assets/img/patientpart-rightarrow.svg" class="fright"></span>
+                                                                      
+                                                                    </li>
+                                                                    <li class="list-group-item mb-2">
+                                                                     
+                                                                      <span class="f12 padleft2"><i class="colorinfo bi bi-info-circle"></i>Reference AOA</span>
+                                                                    </li>
+                                                                    <li class="list-group-item">
+                                                                      <input class="form-check-input fleft me-1" type="checkbox" value="" aria-label="...">
+                                                                      <span class="roboplan3">Reduce the inculin dosages by 25%</span>
+                                                                      
+                                                                    </li>
+                                                                    <li class="list-group-item mb-2">
+                                                                     
+                                                                      <span class="f12 padleft2"><i class="colorinfo bi bi-info-circle"></i>Reference ETG</span>
+                                                                    </li>
+                                                                    <li class="list-group-item">
+                                                                      <input class="form-check-input fleft me-1" type="checkbox" value="" aria-label="...">
+                                                                      <span class="roboplan3">Prescribe for a follow up after 10days with routine tests</span>
+                                                                      
+                                                                    </li>
+                                                                    <li class="list-group-item mb-2">
+                                                                     
+                                                                      <span class="f12 padleft2"><i class="colorinfo bi bi-info-circle"></i>Reference ETG</span>
+                                                                    </li>
+                                                                  
+                                                                  </ul><!-- End List Checkboxes and radios -->
+                                                    
+                                                                </div>
+                                                              </div>
+
+                                                              <div class="input-group mb-3">
+                                                                <input type="text" class="form-control" placeholder="Add Plans" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                                                <span class="input-group-text" id="basic-addon2">+</span>
+                                                              </div>
+                                                              </div>
+
+                                                              <div class="row patienthealthrocord borderbloodgroup mt-3">
+                                                                <div class="card">
+                                                                  <div class="card-body pad0">
+
+                                                                    <div class="dataTable-top mb-3">
+                                                                      <div class="dataTable-dropdown">
+                                                                        <h5 class="card-title roboactionplanh pt-2">Current Medication</h5>
+                                                                      </div>
+                                                                      
+                                                                      <div class="dataTable-search">
+                                                                        <div class="curr-medicationicon"><img src="assets/img/referals-tab-search.svg" class="img-fluid"></div>
+                                                                        <div class="curr-medicationicon"><img src="assets/img/Pin.svg" class="img-fluid"></div>
+                                                                      </div>
+                                                                    </div>
+                                                               
+                                                                  
+                                                      
+                                                                    <table class="table table-borderless">
+                                                                      <thead>
+                                                                        <tr>
+                                                                          <th scope="col">Medicine / Diagnosis</th>
+                                                                          <th scope="col">Frequency / Time</th>
+                                                                          <th scope="col">Start / End Date</th>
+                                                                        
+                                                                        </tr>
+                                                                      </thead>
+                                                                      <tbody>
+                                                                        <tr>
+                                                                          <td>Atrovaslin 200 Tablet <br><span>Diabetes</span></td>
+                                                                          <td>1 Tablet Daily <br><span>After Lunch</span></td>
+                                                                          <td>30/10/2021 <br><span>10/01/2022</span></td>
+                                                                          
+                                                                        </tr>
+                                                                        <tr>
+                                                                          <td>Atrovaslin 200 Tablet <br><span>Diabetes</span></td>
+                                                                          <td>1 Tablet Daily <br><span>After Lunch</span></td>
+                                                                          <td>30/10/2021 <br><span>10/01/2022</span></td>
+                                                                          
+                                                                        </tr>
+                                                                        <tr>
+                                                                          <td>Atrovaslin 200 Tablet <br><span>Diabetes</span></td>
+                                                                          <td>1 Tablet Daily <br><span>After Lunch</span></td>
+                                                                          <td>30/10/2021 <br><span>10/01/2022</span></td>
+                                                                          
+                                                                        </tr>
+                                                                        <tr>
+                                                                          <td>Atrovaslin 200 Tablet <br><span>Diabetes</span></td>
+                                                                          <td>1 Tablet Daily <br><span>After Lunch</span></td>
+                                                                          <td>30/10/2021 <br><span>10/01/2022</span></td>
+                                                                          
+                                                                        </tr>
+                                                                        
+                                                                      </tbody>
+                                                                    </table>
+                                                      
+                                                                  </div>
+                                                                </div>
+  
+                                                                <div class="input-group mb-3">
+                                                                  <input type="text" class="form-control" placeholder="Add Plans" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                                                  <span class="input-group-text" id="basic-addon2">+</span>
+                                                                </div>
+                                                                </div>
+    
+                </div>
+              </div>
+            <div class="col-lg-6 col-md-6 d-flex flex-column align-items-right justify-content-right">
+
+
+
+
+              <div class="card bggrey">
+                <div class="card-body pt-3">
+
+
+                  <!-- Default Tabs -->
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="Summary-tab" data-bs-toggle="tab" data-bs-target="#Summary" type="button" role="tab" aria-controls="Summary" aria-selected="true">Summary</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="Reports-tab" data-bs-toggle="tab" data-bs-target="#Reports" type="button" role="tab" aria-controls="Reports" aria-selected="false">Reports</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="Visits-tab" data-bs-toggle="tab" data-bs-target="#Visits" type="button" role="tab" aria-controls="Visits" aria-selected="false">Visits</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="Medicines-tab" data-bs-toggle="tab" data-bs-target="#Medicines" type="button" role="tab" aria-controls="Medicines" aria-selected="false">Medicines</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="Referrals-tab" data-bs-toggle="tab" data-bs-target="#Referrals" type="button" role="tab" aria-controls="Referrals" aria-selected="false">Referrals</button>
+                    </li>
+                  </ul>                  
+                  <div class="tab-content pt-2" id="myTabContent">
+                    <div class="tab-pane fade show active" id="Summary" role="tabpanel" aria-labelledby="Summary-tab">
+                        
+                      <div class="dataTable-top">
+                            <div class="dataTable-dropdown">
+                                <p>Patient Summary</p>
+                            </div>
+                            <div class="dataTable-search">
+                              <div class="filter">
+                                <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots-vertical"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow" style="">
+                                  <li>
+                                    <a class="dropdown-item PS-filter" href="#">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck2" checked="">
+                                        <label class="form-check-label" for="gridCheck2">
+                                          3D Avatar
+                                        </label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="dropdown-item PS-filter" href="#">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck2" checked="">
+                                        <label class="form-check-label" for="gridCheck2">
+                                          Progress Monitor
+                                        </label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="dropdown-item PS-filter" href="#">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck2" checked="">
+                                        <label class="form-check-label" for="gridCheck2">
+                                          Health Record
+                                        </label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="dropdown-item PS-filter" href="#">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck2" checked="">
+                                        <label class="form-check-label" for="gridCheck2">
+                                          Patient Scorecard
+                                        </label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                               
+                              </div>
+                            </div>
+                      </div>
+
+                        <img src="assets/img/3d-avatar.jpg" class="img-fluid" />
+
+                        <div class="card mt-2">
+                          <div class="card-body">
+                            <div class="dataTable-top">
+                              <div class="dataTable-dropdown">
+                                  <p>Progress Monitor</p>
+                              </div>
+                              <div class="dataTable-search progressmonitor">
+                                <img src="assets/img/Pin.svg"  class="img-fluid"/>
+                              </div>
+                        </div>
+
+
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-HBA1C-tab" data-bs-toggle="tab" data-bs-target="#PM-HBA1C" type="button" role="tab" aria-controls="PM-HBA1C" aria-selected="true">HBA1C <span> <i class="bi bi-chevron-up"></i> 11.4 %</span></button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Weight-tab" data-bs-toggle="tab" data-bs-target="#PM-Weight" type="button" role="tab" aria-controls="PM-Weight" aria-selected="false">Weight  <span> <i class="bi bi-chevron-up"></i> 94 kg</span> </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Pressure-tab" data-bs-toggle="tab" data-bs-target="#PM-Pressure" type="button" role="tab" aria-controls="PM-Pressure" aria-selected="false">Pressure  <span> <i class="bi bi-chevron-down"></i>120/80 mmHg</span> </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Temperature-tab" data-bs-toggle="tab" data-bs-target="#PM-Temperature" type="button" role="tab" aria-controls="PM-Temperature" aria-selected="false">Temperature  <span> <i class="bi bi-chevron-down"></i> 36.7 C</span></button>
+                          </li>
+                        </ul>
+
+                        <div class="tab-content pt-2" id="myTabContent">
+                          <div class="tab-pane fade active show" id="PM-HBA1C" role="tabpanel" aria-labelledby="HBA1C-tab">
+                            <img src="assets/img/Progress-Monitor/HBA1c.jpg"  class="img-fluid"/>
+                          </div>
+                          <div class="tab-pane fade" id="PM-Weight" role="tabpanel" aria-labelledby="Weight-tab">
+                            <img src="assets/img/Progress-Monitor/Weight.jpg"  class="img-fluid"/>
+                          </div>                          
+                          <div class="tab-pane fade" id="PM-Pressure" role="tabpanel" aria-labelledby="Pressure-tab">
+                            <img src="assets/img/Progress-Monitor/Pressure.jpg"  class="img-fluid"/>
+                          </div>
+                          <div class="tab-pane fade" id="PM-Temperature" role="tabpanel" aria-labelledby="Temperature-tab">
+                            <img src="assets/img/Progress-Monitor/Pressure.jpg"  class="img-fluid"/>
+                          </div>
+                        </div>
+
+                          </div>
+                          
+                        </div>
+
+                        <div class="card mt-2">
+                          <div class="card-body ">
+                            <div class="dataTable-top">
+                              <div class="dataTable-dropdown">
+                                  <p>Present Health Records</p>
+                              </div>
+                              <div class="dataTable-search patienthealthrecord">
+                                <img src="assets/img/Pin.svg"  class="img-fluid"/>
+                              </div>
+                        </div>
+
+                        <div class="row patienthealthrocord marg0">
+
+                          <div class="col-lg-6 pad0">
+                                                <div class="card">
+                                                  
+                                                  
+                                      
+                                                    <!-- List group with custom content -->
+                                                    <ol class="list-group">
+                                                      <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                        <div class="col-lg-5">
+                                                        
+                                                          <div class="patient-record-fsizeh ">BMI</div>                                
+                                                       
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                        
+                                                          <div class="patient-record-fsizep ms-2">Overweight (26 Aug)</div>                                
+                                                       
+                                                        </div>
+                                                        
+                                                      </li>
+                                                      <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                        <div class="col-lg-5">
+                                                        
+                                                          <div class="patient-record-fsizeh ">Smoking</div>                                
+                                                       
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                        
+                                                          <div class="patient-record-fsizep ms-2">Non Smoker (26 Aug)</div>                                
+                                                       
+                                                        </div>
+                                                        
+                                                      </li>
+                                                      <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                        <div class="col-lg-5">
+                                                        
+                                                          <div class="patient-record-fsizeh ">K +</div>                                
+                                                       
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                        
+                                                          <div class="patient-record-fsizep ms-2">4.1 mmol (26 Aug)</div>                                
+                                                       
+                                                        </div>
+                                                        
+                                                      </li>
+                                                      <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                        <div class="col-lg-5">
+                                                        
+                                                          <div class="patient-record-fsizeh ">Cr</div>                                
+                                                       
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                        
+                                                          <div class="patient-record-fsizep ms-2">0.7mg (26 Aug)</div>                                
+                                                       
+                                                        </div>
+                                                        
+                                                      </li>
+                                                      <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                        <div class="col-lg-5">
+                                                        
+                                                          <div class="patient-record-fsizeh ">MicroAlb / Cr</div>                                
+                                                       
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                        
+                                                          <div class="patient-record-fsizep ms-2">6.2 mog/mg (26 Aug)</div>                                
+                                                       
+                                                        </div>
+                                                        
+                                                      </li>
+                                                      <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                        <div class="col-lg-5">
+                                                        
+                                                          <div class="patient-record-fsizeh ">GFR (AA)</div>                                
+                                                       
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                        
+                                                          <div class="patient-record-fsizep ms-2">109.95 mL/min(26 Aug)</div>                                
+                                                       
+                                                        </div>
+                                                        
+                                                      </li>
+                                                    </ol><!-- End with custom content -->
+                                      
+                                                </div>
+                        
+                                                </div>
+                                                <div class="col-lg-6 pad0">
+                                                  <div class="card">
+                                                    
+                                                    
+                                        
+                                                      <!-- List group with custom content -->
+                                                      <ol class="list-group ">
+                                                        <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                          <div class="col-lg-5">
+                                                          
+                                                            <div class="patient-record-fsizeh ">BMI</div>                                
+                                                         
+                                                          </div>
+                                                          <div class="col-lg-7">
+                                                          
+                                                            <div class="patient-record-fsizep ms-2">Overweight (26 Aug)</div>                                
+                                                         
+                                                          </div>
+                                                          
+                                                        </li>
+                                                        <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                          <div class="col-lg-5">
+                                                          
+                                                            <div class="patient-record-fsizeh ">Smoking</div>                                
+                                                         
+                                                          </div>
+                                                          <div class="col-lg-7">
+                                                          
+                                                            <div class="patient-record-fsizep ms-2">Non Smoker (26 Aug)</div>                                
+                                                         
+                                                          </div>
+                                                          
+                                                        </li>
+                                                        <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                          <div class="col-lg-5">
+                                                          
+                                                            <div class="patient-record-fsizeh ">K +</div>                                
+                                                         
+                                                          </div>
+                                                          <div class="col-lg-7">
+                                                          
+                                                            <div class="patient-record-fsizep ms-2">4.1 mmol (26 Aug)</div>                                
+                                                         
+                                                          </div>
+                                                          
+                                                        </li>
+                                                        <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                          <div class="col-lg-5">
+                                                          
+                                                            <div class="patient-record-fsizeh ">Cr</div>                                
+                                                         
+                                                          </div>
+                                                          <div class="col-lg-7">
+                                                          
+                                                            <div class="patient-record-fsizep ms-2">0.7mg (26 Aug)</div>                                
+                                                         
+                                                          </div>
+                                                          
+                                                        </li>
+                                                        <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                          <div class="col-lg-5">
+                                                          
+                                                            <div class="patient-record-fsizeh ">MicroAlb / Cr</div>                                
+                                                         
+                                                          </div>
+                                                          <div class="col-lg-7">
+                                                          
+                                                            <div class="patient-record-fsizep ms-2">6.2 mog/mg (26 Aug)</div>                                
+                                                         
+                                                          </div>
+                                                          
+                                                        </li>
+                                                        <li class="list-group-item pad0 d-flex justify-content-between align-items-start">
+                                                          <div class="col-lg-5">
+                                                          
+                                                            <div class="patient-record-fsizeh ">GFR (AA)</div>                                
+                                                         
+                                                          </div>
+                                                          <div class="col-lg-7">
+                                                          
+                                                            <div class="patient-record-fsizep ms-2">109.95 mL/min(26 Aug)</div>                                
+                                                         
+                                                          </div>
+                                                          
+                                                        </li>
+                                                      </ol><!-- End with custom content -->
+                                        
+                                                  </div>
+                          
+                                                  </div>
+                           
+                                              </div>
+
+                          </div>
+                          
+                        </div>
+
+
+
+                      <div class="card mt-2">
+                        <div class="card-body">
+                          <div class="dataTable-top">
+                            <div class="dataTable-dropdown">
+                                <p class="fleft mr-2">Patient Score Card</p>
+
+
+
+
+<!-- Pills Tabs -->
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active patientscorecard pad0" id="pills-gridview-tab" data-bs-toggle="pill" data-bs-target="#pills-gridview" type="button" role="tab" aria-controls="pills-gridview" aria-selected="true"><img src="assets/img/correspondencein-filter1.svg" /></button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link patientscorecard pad0" id="pills-tableview-tab" data-bs-toggle="pill" data-bs-target="#pills-tableview" type="button" role="tab" aria-controls="pills-tableview" aria-selected="false"><img src="assets/img/correspondencein-filter2.svg" /></button>
+  </li>
+
+</ul>
+<div class="tab-content pt-2" id="myTabContent">
+  <div class="tab-pane fade show active" id="pills-gridview" role="tabpanel" aria-labelledby="gridview-tab">
+    
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="Weight-tab" data-bs-toggle="tab" data-bs-target="#PM-HBA1C" type="button" role="tab" aria-controls="PM-HBA1C" aria-selected="true">Weight <span>  94 kg</span></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="BP-tab" data-bs-toggle="tab" data-bs-target="#PM-Weight" type="button" role="tab" aria-controls="PM-Weight" aria-selected="false">BP  <span>  135 mmHg</span> </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="Nuitrition-tab" data-bs-toggle="tab" data-bs-target="#PM-Pressure" type="button" role="tab" aria-controls="PM-Pressure" aria-selected="false">Nutritian  <span> &nbsp;</span> </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="Glycemic-tab" data-bs-toggle="tab" data-bs-target="#PM-Temperature" type="button" role="tab" aria-controls="PM-Temperature" aria-selected="false">Glycemic target  <span> 8.0 %</span></button>
+      </li>
+    </ul>
+
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="Exercise-tab" data-bs-toggle="tab" data-bs-target="#PM-HBA1C" type="button" role="tab" aria-controls="PM-HBA1C" aria-selected="true">Exercise <span> &nbsp;</span></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="Hygine-tab" data-bs-toggle="tab" data-bs-target="#PM-Weight" type="button" role="tab" aria-controls="PM-Weight" aria-selected="false">Medical   <span>Hygine</span> </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="Alcohol-tab" data-bs-toggle="tab" data-bs-target="#PM-Pressure" type="button" role="tab" aria-controls="PM-Pressure" aria-selected="false">Alcohol  <span>&nbsp;</span> </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="Smoking-tab" data-bs-toggle="tab" data-bs-target="#PM-Temperature" type="button" role="tab" aria-controls="PM-Temperature" aria-selected="false">Smoking  <span> &nbsp;</span></button>
+      </li>
+    </ul>
+
+
+  </div>
+  <div class="tab-pane fade" id="pills-tableview" role="tabpanel" aria-labelledby="tableview-tab">
+    <table class="table table-borderless">
+      <thead>
+        <tr>
+         
+          <th scope="col">Diagnosis</th>
+          <th scope="col">Goals</th>
+          <th scope="col">Comments</th>
+          <th scope="col">Self Care</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+         
+          <td>Diabetes Weight<br><span>94kg</span></td>
+          <td>Dr. Courtney Henry <br><span>General Practioner / RN</span></td>
+          <td>12:00 PM<br><span>12/20/2021</span></td>
+          <td><span class="badge bg-pending">Pending</span></td>
+        </tr>
+        <tr>
+          
+          <td>Diabetes <br><span>Out Patient</span></td>
+          <td>Dr. Courtney Henry <br><span>General Practioner / RN</span></td>
+          <td>12:00 PM<br><span>12/20/2021</span></td>
+          <td><img src="assets/img/referals-tab-tick.svg"></td>
+        </tr>
+        <tr>
+          
+          <td>Diabetes <br><span>Out Patient</span></td>
+          <td>Dr. Courtney Henry <br><span>General Practioner / RN</span></td>
+          <td>12:00 PM<br><span>12/20/2021</span></td>
+          <td><img src="assets/img/referals-tab-tick.svg"></td>
+        </tr>
+        <tr>
+          
+          <td>Diabetes <br><span>Out Patient</span></td>
+          <td>Dr. Courtney Henry <br><span>General Practioner / RN</span></td>
+          <td>12:00 PM<br><span>12/20/2021</span></td>
+          <td><img src="assets/img/referals-tab-tick.svg"></td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+</div><!-- End Pills Tabs -->
+
+
+
+
+
+
+
+                             
+                            </div>
+                            <div class="dataTable-search patientscorecard">
+                              <img src="assets/img/Pin.svg"  class="img-fluid"/>
+                            </div>
+                      </div>
+
+
+
+                        </div>
+                        
+                      </div>
+
+
+                    </div>
+                    <div class="tab-pane fade" id="Reports" role="tabpanel" aria-labelledby="Reports-tab">
+                      
+                      <div class="row">
+                        <div class="card-body">
+                        
+            
+                          <!-- Bordered Tabs Justified -->
+                          <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Correspondencein-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Correspondencein" type="button" role="tab" aria-controls="Correspondencein" aria-selected="false">Correspondence In (3)</button>
+                            </li>
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Correspondenceout-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Correspondenceout" type="button" role="tab" aria-controls="Correspondenceout" aria-selected="false">Correspondence Out (1)</button>
+                            </li>
+                           
+                          </ul>
+                          <div class="tab-content pt-2" id="borderedTabJustifiedContent">
+                            <div class="tab-pane active" id="bordered-justified-Correspondencein" role="tabpanel" aria-labelledby="Correspondencein-tab">
+                              <div class="card-body dashboard bgwhite pt-3">
+                                <div class="dataTable-top mb-3">
+                                  <div class="dataTable-dropdown">
+                                    <label>
+                                      <select class="dataTable-selector mt-2">
+                                        <option value="0">Lab Studies</option>
+                                        <option value="1"  selected="">Imaging Studies</option>
+                                        <option value="2">Diabetologist Report</option>
+                                        <option value="3">Referal Report</option>                                    
+                                      </select>
+                                    </label>
+                                  </div>
+                                  
+                                  <div class="dataTable-search visitdataviewtableviewicon">
+                                    <div class="curr-filter1 filterselect"><img src="assets/img/correspondencein-filter1.svg"  class="img-fluid"/></div>
+                                    <div class="curr-filter2"><img src="assets/img/correspondencein-filter2.svg"  class="img-fluid"/></div>
+                                  </div>
+                                </div>
+                  
+                                <div class="activity">
+
+                                  <div class="row">
+                                      <div class="col-lg-9">
+
+
+                                        <div class="activity-item d-flex">
+                                          <div class="activite-label">&nbsp;</div>
+                                          <img src="assets/img/Reports/corr-in-dr-icon1.jpg" class="curr-filter1img"/>
+                                          <div class="activity-content">                                            
+                                            Dr. Reannon Carey <br><a href="#" class="fw-bold text-dark">General Practioner</a> 
+                                            <p class="pt-2">X-Ray Chest - 12PM, 12/20//2021</p>
+                                            <p class="pt-1">Incidence of airway lesions with a normal chest X-ray is 1.5%</p>
+                                            <img src="assets/img/Reports/xray.jpg" class="img-fluid"/>
+                                            <p><a>Vitals</a>&nbsp;&nbsp;&nbsp;<a>Reports</a></p>
+                                          </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="col-lg-3">
+                                          <div class="doctorofficial badge">Official</div>
+                                          <div class="doctorofficialmore"><img src="assets/img/correspondencein-arrow.svg" class="img-fluid"/></div>
+                                        </div>
+
+                                        </div>
+
+                        
+                                        <div class="row">
+                                          <div class="col-lg-9">
+    
+    
+                                            <div class="activity-item d-flex">
+                                              <div class="activite-label">&nbsp;</div>
+                                              <img src="assets/img/Reports/corr-in-dr-icon1.jpg" class="curr-filter1img"/>
+                                              <div class="activity-content">
+                                                
+                                                Dr. Reannon Carey <br><a href="#" class="fw-bold text-dark">General Practioner</a> 
+                                                <p class="pt-2">X-Ray Chest - 12PM, 12/20//2021</p>
+                                                <p class="pt-1">Incidence of airway lesions with a normal chest X-ray is 1.5%</p>
+                                                <img src="assets/img/Reports/xray.jpg" class="img-fluid"/>
+                                                <p><a>Vitals</a>&nbsp;&nbsp;&nbsp;<a>Reports</a></p>
+                                              </div>
+                                            </div>
+                                            </div>
+    
+                                            <div class="col-lg-3">
+                                              <div class="doctorofficial badge">Official</div>
+
+                                              <div class="doctorofficialmore"><img src="assets/img/correspondencein-arrow.svg" class="img-fluid"/></div>
+                                            </div>
+    
+                                            </div>
+    
+                                       
+    
+                                            </div>
+                                      </div>
+                                      
+                                  </div>
+                  
+                               
+                  
+                                 
+                  
+                            <div class="tab-pane fade" id="bordered-justified-Correspondenceout" role="tabpanel" aria-labelledby="Correspondenceout-tab">
+                              
+                              <div class="card-body bgwhite pt-3">
+                                <div class="row">
+                                  <div class="col-lg-7">
+                                    <button type="button" class="btn btn-referals-location w100p">
+                                      <img src="assets/img/referals-tab-search.svg" class="fleft"/>
+                                     Search
+                                     <img src="assets/img/referals-tab-addnotes.svg" class="fright"/></button>
+                                  </div>
+                                    <div class="col-lg-5">
+                                      <div class="dataTable-search">
+                                        <div class="curr-filter3"><img src="assets/img/correspondenceout-filter3.svg" class="img-fluid"></div>
+                                        <div class="curr-filter1"><img src="assets/img/correspondencein-filter1.svg" class="img-fluid"></div>
+                                        <div class="curr-filter2 filterselect"><img src="assets/img/correspondencein-filter2.svg" class="img-fluid"></div>
+                                      </div>
+                                    </div>
+                                   
+                                </div>
+
+                                <table class="table table-borderless">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">Report / Category</th>
+                                      <th scope="col">Diagnosis / Visit type</th>
+                                      <th scope="col">Physician / Speciality</th>
+                                      <th scope="col">Reviewed Date / Received Date</th>
+                                      <th scope="col">Status</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>Referal to Specialists <br><span>R N Consultation</span></td>
+                                      <td>Diabetes <br><span>Out Patient</span></td>
+                                      <td>Dr. Courtney Henry <br><span>General Practioner / RN</span></td>
+                                      <td>12:00 PM<br><span>12/20/2021</span></td>
+                                      <td><span class="badge bg-pending">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>Referal to Specialists <br><span>R N Consultation</span></td>
+                                      <td>Diabetes <br><span>Out Patient</span></td>
+                                      <td>Dr. Courtney Henry <br><span>General Practioner / RN</span></td>
+                                      <td>12:00 PM<br><span>12/20/2021</span></td>
+                                      <td><img src="assets/img/referals-tab-tick.svg" ></td>
+                                    </tr>
+                                    <tr>
+                                      <td>Referal to Specialists <br><span>R N Consultation</span></td>
+                                      <td>Diabetes <br><span>Out Patient</span></td>
+                                      <td>Dr. Courtney Henry <br><span>General Practioner / RN</span></td>
+                                      <td>12:00 PM<br><span>12/20/2021</span></td>
+                                      <td><img src="assets/img/referals-tab-tick.svg" ></td>
+                                    </tr>
+                                    <tr>
+                                      <td>Referal to Specialists <br><span>R N Consultation</span></td>
+                                      <td>Diabetes <br><span>Out Patient</span></td>
+                                      <td>Dr. Courtney Henry <br><span>General Practioner / RN</span></td>
+                                      <td>12:00 PM<br><span>12/20/2021</span></td>
+                                      <td><img src="assets/img/referals-tab-tick.svg" ></td>
+                                    </tr>
+                                    
+                                  </tbody>
+                                </table>
+
+                              
+
+                          </div>
+
+
+                            </div>
+                
+                          </div><!-- End Bordered Tabs Justified -->
+            
+                        </div>
+                      </div>
+
+
+
+
+
+
+                    </div>
+                    <div class="tab-pane fade" id="Visits" role="tabpanel" aria-labelledby="Visits-tab">
+                      
+                      <div class="row">
+                        <div class="card-body">
+                        
+            
+                          <!-- Bordered Tabs Justified -->
+                          <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Specialists-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Specialists" type="button" role="tab" aria-controls="Specialists" aria-selected="false">Specialists</button>
+                            </li>
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Hospitals-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Hospitals" type="button" role="tab" aria-controls="Hospitals" aria-selected="false">Hospitals</button>
+                            </li>
+                           
+                          </ul>
+                          <div class="tab-content pt-2" id="borderedTabJustifiedContent">
+                            <div class="tab-pane active" id="bordered-justified-Specialists" role="tabpanel" aria-labelledby="Specialists-tab">
+                              <div class="card-body dashboard bgwhite pt-3">
+                                <div class="dataTable-top mb-3">
+                                  <div class="dataTable-dropdown">
+                                    <label>
+                                      <select class="dataTable-selector mt-2">
+                                        <option value="0">Lab Studies</option>
+                                        <option value="1"  selected="">Imaging Studies</option>
+                                        <option value="2">Diabetologist Report</option>
+                                        <option value="3">Referal Report</option>                                    
+                                      </select>
+                                    </label>
+                                  </div>
+                                  
+                                  <div class="dataTable-search">
+                                    <div class="curr-filter1 filterselect"><img src="assets/img/correspondencein-filter1.svg"  class="img-fluid"/></div>
+                                    <div class="curr-filter2"><img src="assets/img/correspondencein-filter2.svg"  class="img-fluid"/></div>
+                                  </div>
+                                </div>
+                  
+                                <div class="activity">
+
+                                  <div class="row">
+                                      <div class="col-lg-9">
+
+
+                                        <div class="activity-item d-flex">
+                                          <div class="activite-label">&nbsp;</div>
+                                          <img src="assets/img/Reports/corr-in-dr-icon1.jpg" class="curr-filter1img"/>
+                                          <div class="activity-content">
+                                            
+                                            Dr. Reannon Carey <br><a href="#" class="fw-bold text-dark">General Practioner</a> 
+                                            <p class="pt-2">X-Ray Chest - 12PM, 12/20//2021</p>
+                                            <p class="pt-1">Incidence of airway lesions with a normal chest X-ray is 1.5%</p>
+                                            <img src="assets/img/Reports/xray.jpg" class="img-fluid"/>
+                                            <p><a>Vitals</a>&nbsp;&nbsp;&nbsp;<a>Reports</a></p>
+                                          </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="col-lg-3">
+                                          <div class="doctorofficial badge">Official</div>
+                                          <div class="doctorofficialmore"><img src="assets/img/correspondencein-arrow.svg" class="img-fluid"/></div>
+                                        </div>
+
+                                        </div>
+
+                        
+                                        <div class="row">
+                                          <div class="col-lg-9">
+    
+    
+                                            <div class="activity-item d-flex">
+                                              <div class="activite-label">&nbsp;</div>
+                                              <img src="assets/img/Reports/corr-in-dr-icon1.jpg" class="curr-filter1img"/>
+                                              <div class="activity-content">
+                                                
+                                                Dr. Reannon Carey <br><a href="#" class="fw-bold text-dark">General Practioner</a> 
+                                                <p class="pt-2">X-Ray Chest - 12PM, 12/20//2021</p>
+                                                <p class="pt-1">Incidence of airway lesions with a normal chest X-ray is 1.5%</p>
+                                                <img src="assets/img/Reports/xray.jpg" class="img-fluid"/>
+                                                <p><a>Vitals</a>&nbsp;&nbsp;&nbsp;<a>Reports</a></p>
+                                              </div>
+                                            </div>
+                                            </div>
+    
+                                            <div class="col-lg-3">
+                                              <div class="doctorofficial badge">Official</div>
+
+                                              <div class="doctorofficialmore"><img src="assets/img/correspondencein-arrow.svg" class="img-fluid"/></div>
+                                            </div>
+    
+                                            </div>
+    
+                                       
+    
+                                            </div>
+                                      </div>
+                            </div>
+                            <div class="tab-pane fade" id="bordered-justified-Hospitals" role="tabpanel" aria-labelledby="Hospitals-tab">
+                              Hospitals
+                            </div>
+                
+                          </div><!-- End Bordered Tabs Justified -->
+            
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                    <div class="tab-pane fade" id="Medicines" role="tabpanel" aria-labelledby="Medicines-tab">
+                      
+                      <div class="row">
+                        <div class="card-body">
+                        
+            
+                          <!-- Bordered Tabs Justified -->
+                          <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Medicine-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Medicine" type="button" role="tab" aria-controls="Medicine" aria-selected="false">Medicine</button>
+                            </li>
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Immunization-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Immunization" type="button" role="tab" aria-controls="Immunization" aria-selected="false">Immunization</button>
+                            </li>
+
+                           
+                          </ul>
+                          <div class="tab-content pt-2" id="borderedTabJustifiedContent">
+                            <div class="tab-pane active" id="bordered-justified-Medicine" role="tabpanel" aria-labelledby="Medicine-tab">
+                       
+                                <div class="card-body bgwhite pt-3">
+                                  <div class="row">
+                                    <div class="col-lg-8">
+                                      <button type="button" class="btn btn-referals-location w100p">
+                                        <img src="assets/img/referals-tab-search.svg" class="fleft"/>
+                                       Search
+                                       <img src="assets/img/referals-tab-addnotes.svg" class="fright"/></button>
+                                    </div>
+                                      <div class="col-lg-4">
+                                        <button type="button" class="btn btn-preview w100p">
+                                          <img src="assets/img/medicine-tab-plus.svg" class="fleft"/>
+                                         Prescription</button>
+                                      </div>
+                                     
+                                  </div>
+
+                                  <table class="table table-borderless">
+                                    <thead>
+                                      <tr>
+                                       
+                                        <th scope="col">Medicine / Diagnostics</th>
+                                        <th scope="col">Frequency / Time</th>
+                                        <th scope="col">Start / End Date</th>
+                                        <th scope="col">Status</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                       
+                                        <td>Astrovastatin <br><span>Diabetes</span></td>
+                                        <td>1 Tablet <br><span>After Lunch</span></td>
+                                        <td>10/03/2021 <br><span>01/10/2022</span></td>
+                                        <td><span class="badge bg-primary">Active</span></td>
+                                      </tr>
+                                      <tr>
+                                       
+                                        <td>Astrovastatin <br><span>Diabetes</span></td>
+                                        <td>1 Tablet <br><span>After Lunch</span></td>
+                                        <td>10/03/2021 <br><span>01/10/2022</span></td>
+                                        <td><span class="badge bg-primary">Active</span></td>
+                                      </tr>
+                                      <tr>
+                                       
+                                        <td>Astrovastatin <br><span>Diabetes</span></td>
+                                        <td>1 Tablet <br><span>After Lunch</span></td>
+                                        <td>10/03/2021 <br><span>01/10/2022</span></td>
+                                        <td><span class="badge bg-primary">Active</span></td>
+                                      </tr>
+                                      <tr>
+                                       
+                                        <td>Astrovastatin <br><span>Diabetes</span></td>
+                                        <td>1 Tablet <br><span>After Lunch</span></td>
+                                        <td>10/03/2021 <br><span>01/10/2022</span></td>
+                                        <td><img src="assets/img/medicine-tab-close.svg" /></td>
+                                      </tr>
+                                      
+                                    </tbody>
+                                  </table>
+
+                                
+
+                            </div>
+                          </div>
+                            <div class="tab-pane fade" id="bordered-justified-Immunization" role="tabpanel" aria-labelledby="Immunization-tab">
+                              <div class="card-body bgwhite pt-3">
+                                <div class="row">
+                                  <div class="col-lg-8">
+                                    <button type="button" class="btn btn-referals-location w100p">
+                                      <img src="assets/img/referals-tab-search.svg" class="fleft"/>
+                                     Search
+                                     <img src="assets/img/referals-tab-addnotes.svg" class="fright"/></button>
+                                  </div>
+                                    <div class="col-lg-4">
+                                      <button type="button" class="btn btn-preview w100p">
+                                        <img src="assets/img/medicine-tab-plus.svg" class="fleft"/>
+                                       Vaccination</button>
+                                    </div>
+                                   
+                                </div>
+
+                                <table class="table table-borderless">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">Age</th>
+                                      <th scope="col">Vaccination / Diagnostics</th>
+                                      <th scope="col">Route / Dose</th>
+                                      <th scope="col">Side Effect</th>
+                                      <th scope="col">Due Date / Last Date</th>
+                                      <th scope="col">Status</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>60 + </td>
+                                      <td>Moderma <br><span>Covid 19</span></td>
+                                      <td>Injection <br><span>1 st</span></td>
+                                      <td>Head Ache</td>
+                                      <td>10/30/2021 <br><span>01/10/2022</span></td>
+                                      <td><span class="badge bg-primary">New</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>60 + </td>
+                                      <td>Moderma <br><span>Covid 19</span></td>
+                                      <td>Injection <br><span>1 st</span></td>
+                                      <td>Head Ache</td>
+                                      <td>10/30/2021 <br><span>01/10/2022</span></td>
+                                      <td><span class="badge bg-primary">New</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>60 + </td>
+                                      <td>Moderma <br><span>Covid 19</span></td>
+                                      <td>Injection <br><span>1 st</span></td>
+                                      <td>Head Ache</td>
+                                      <td>10/30/2021 <br><span>01/10/2022</span></td>
+                                      <td><span class="badge bg-primary">New</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>60 + </td>
+                                      <td>Moderma <br><span>Covid 19</span></td>
+                                      <td>Injection <br><span>1 st</span></td>
+                                      <td>Head Ache</td>
+                                      <td>10/30/2021 <br><span>01/10/2022</span></td>
+                                      <td><span class="badge bg-primary">New</span></td>
+                                    </tr>
+                                    
+                                  </tbody>
+                                </table>
+
+                              
+
+                          </div>
+                            </div>
+                
+
+
+                          <!-- End Bordered Tabs Justified -->
+            
+                        </div>
+                      </div>
+
+
+
+                    </div>
+
+
+
+                    </div>
+                    <div class="tab-pane fade" id="Referrals" role="tabpanel" aria-labelledby="Referrals-tab">
+                      
+                      <div class="row">
+                        <div class="card-body">
+                        
+            
+                          <!-- Bordered Tabs Justified -->
+                          <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Diagnostistic-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Diagnostistic" type="button" role="tab" aria-controls="Diagnostistic" aria-selected="false">Diagnostistic</button>
+                            </li>
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Specialisits-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Specialisits" type="button" role="tab" aria-controls="Specialisits" aria-selected="false">Specialisits</button>
+                            </li>
+                            <li class="nav-item flex-fill" role="presentation">
+                              <button class="nav-link w-100" id="Communication-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-Communication" type="button" role="tab" aria-controls="Communication" aria-selected="false">Communication</button>
+                            </li>
+                           
+                          </ul>
+                          <div class="tab-content pt-2" id="borderedTabJustifiedContent">
+                            <div class="tab-pane active" id="bordered-justified-Diagnostistic" role="tabpanel" aria-labelledby="Diagnostistic-tab">
+                       
+                                <div class="card-body bgwhite pt-3">
+                                  <div class="row">
+                                      <div class="col-lg-4">
+                                        <button type="button" class="btn btn-referals-location w100p">
+                                          <img src="assets/img/referals-tab-location.svg" class="fleft"/>
+                                         Brisbane</button>
+                                      </div>
+                                      <div class="col-lg-8">
+                                        <button type="button" class="btn btn-referals-location w100p">
+                                          <img src="assets/img/referals-tab-search.svg" class="fleft"/>
+                                         Search</button>
+                                      </div>
+                                  </div>
+
+                                  <div class="row mt-3">
+                                    <div class="col-lg-6">
+                                      <label for="basic-url" class="form-label">Labs Nearby</label>
+                                      <select class="form-select" aria-label="Default select example">
+                                       
+                                        <option value="1" selected>Neighbourhood Lab1</option>
+                                        <option value="2">Neighbourhood Lab2</option>
+                                        <option value="3">Neighbourhood Lab3</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-lg-6">
+                                      <label for="basic-url" class="form-label">Refereal Template</label>
+                                      <select class="form-select" aria-label="Default select example">
+                                       
+                                        <option value="1" selected>Refereal Template 1</option>
+                                        <option value="2">Refereal Template 2</option>
+                                        <option value="3">Refereal Template 3</option>
+                                      </select>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                  <label for="basic-url" class="form-label">Parameters to check</label>
+                                 
+                        
+                                </div>
+
+                              
+                                 <div class="row mt-3">
+                                  <div class="col-lg-5">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck1" checked>
+                                      <label class="form-check-label" for="gridCheck1">
+                                        HBA1C
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck1" checked>
+                                      <label class="form-check-label" for="gridCheck1">
+                                        BP
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                      <label class="form-check-label" for="gridCheck1">
+                                        LDL Cholesterol
+                                      </label>
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="col-lg-5">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck1" checked>
+                                      <label class="form-check-label" for="gridCheck1">
+                                        MicroAlbumin
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck1" checked>
+                                      <label class="form-check-label" for="gridCheck1">
+                                        Potassium
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                      <label class="form-check-label" for="gridCheck1">
+                                        HDL Cholesterol
+                                      </label>
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="col-lg-2">3</div>
+                                </div>
+
+                                <div class="row mt-3">
+                                  <div class="col-lg-6">
+                                    <label for="basic-url" class="form-label">Referred On:</label>
+                                    <input type="date" class="form-control">
+                                  </div>
+                                  <div class="col-lg-6">
+                                    <label for="basic-url" class="form-label">Expected On:</label>
+                                    <input type="date" class="form-control">
+                                  </div>
+                              </div>
+
+
+                              <div class="row mt-3">
+                                <label for="basic-url" class="form-label">Add Consultation Notes</label>
+                                <textarea class="form-control" style="height: 100px"></textarea>
+                               
+                      
+                              </div>
+
+                              <div class="row mt-3">
+                                <div class="col-lg-4">&nbsp;</div>
+                                <div class="col-lg-4">
+                                
+                                  <button type="button" class="btn btn-referals-location w100p">
+                                    <img src="assets/img/referals-tab-addnotes.svg" class="fleft"/>
+                                  Add Notes</button>
+                                </div>
+                                <div class="col-lg-4">
+                                
+                                  <button type="button" class="btn btn-referals-location btn-preview w100p">
+                                    <img src="assets/img/referals-tab-preview.svg" class="fleft"/>
+                                  Preview</button>
+                                </div>
+                              </div>
+
+
+                              <div class="row mt-3">
+                                <label for="basic-url" class="form-label">Booking History last 2</label>
+                                <table class="table table-borderless">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col"></th>
+                                      <th scope="col">Clinic</th>
+                                      <th scope="col">Reason</th>
+                                      <th scope="col">Date</th>
+                                      <th scope="col">Status</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th scope="row"><img src="assets/img/Reports/corr-in-dr-icon1.jpg" ></th>
+                                      <td>The Neighbourhood Clinic <br><span>Medical Lab</span></td>
+                                      <td>High Sugar</td>
+                                      <td>01/06/2022</td>
+                                      <td><img src="assets/img/referals-tab-tick.svg" ></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row"><img src="assets/img/Reports/corr-in-dr-icon1.jpg" ></th>
+                                      <td>The Neighbourhood Clinic <br><span>Medical Lab</span></td>
+                                      <td>High Sugar</td>
+                                      <td>01/06/2022</td>
+                                      <td><img src="assets/img/referals-tab-tick.svg" ></td>
+                                    </tr>
+
+                                    
+                                  </tbody>
+                                </table>
+
+                                <label for="basic-url" class="form-label">more</label>
+                               
+                      
+                              </div>
+
+
+
+
+
+                            </div>
+                          </div>
+                            <div class="tab-pane fade" id="bordered-justified-Specialisits" role="tabpanel" aria-labelledby="Specialisits-tab" name="Specialisits-tabsssss">
+                              <div class="card-body bgwhite pt-3">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                      <select class="form-select" aria-label="Default select example">
+                                     
+                                        <option value="1" selected>Diabetes</option>
+                                        <option value="2">BP</option>
+                                        <option value="3">Asthritis</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-lg-8">
+                                      <button type="button" class="btn btn-referals-location w100p">
+                                        <img src="assets/img/referals-tab-search.svg" class="fleft"/>
+                                       Search Lab</button>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                  <div class="col-lg-6">
+                                    <label for="basic-url" class="form-label">Specialists</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                     
+                                      <option value="1" selected>Dr. Steve Jones</option>
+                                      <option value="2">Dr. Mathew Wade</option>
+                                      <option value="3">Dr. Elizabeth Thomas</option>
+                                    </select>
+                                  </div>
+                                  <div class="col-lg-6">
+                                    <label for="basic-url" class="form-label">Refereal Template</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                     
+                                      <option value="1" selected>Refereal Template 1</option>
+                                      <option value="2">Refereal Template 2</option>
+                                      <option value="3">Refereal Template 3</option>
+                                    </select>
+                                  </div>
+                              </div>
+
+                              <div class="row mt-3">
+                                <div class="col-lg-8">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" checked>
+                                    <label class="form-check-label" for="gridCheck1">
+                                      Add to care communication
+                                    </label>
+                                  </div>
+                                </div>  
+                               
+                      
+                              </div>
+
+                              <div class="row mt-3">
+                                <div class="col-lg-6">
+                                  <label for="basic-url" class="form-label">Referred On:</label>
+                                  <input type="date" class="form-control">
+                                </div>
+                                <div class="col-lg-6">
+                                  <label for="basic-url" class="form-label">Expected On:</label>
+                                  <input type="date" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                              <label for="basic-url" class="form-label">Patient Details</label>           
+                            </div>
+
+                            <div class="row mt-3">
+                              <div class="col-lg-3">
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">Visit Complains</p>
+                                  <p class="patienthistoryv-referals">High Sugar</p>
+                                </div>
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">Last Visit</p>
+                                  <p class="patienthistoryv-referals">01/30/2022</p>
+                                </div>
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">Social History</p>
+                                  <p class="patienthistoryv-referals">Alcohol, Tobacoo</p>
+                                </div>
+                              </div>
+                              <div class="col-lg-3">
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">Reason for referral</p>
+                                  <p class="patienthistoryv-referals">High Glycemic Value</p>
+                                </div>
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">Allergy List</p>
+                                  <p class="patienthistoryv-referals">Nil</p>
+                                </div>
+                                
+                              </div>  
+                              <div class="col-lg-3">
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">Total Chol</p>
+                                  <p class="patienthistoryv-referals">176 mg/dL</p>
+                                </div>
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">K +</p>
+                                  <p class="patienthistoryv-referals">4.1 mmol/L</p>
+                                </div>
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">Glucose Values</p>
+                                  <p class="patienthistoryv-referals">350</p>
+                                </div>
+
+                              </div>  
+                              <div class="col-lg-3">
+
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">No show probablilty</p>
+                                  <p class="patienthistoryv-referals">Low</p>
+                                </div>
+                                <div class="me-auto mb-2">
+                                  <p class="patienthistoryh-referals">No of visits</p>
+                                  <p class="patienthistoryv-referals">3</p>
+                                </div>
+                              </div>       
+                            </div>
+
+                            
+ 
+                            
+
+
+                            <div class="row mt-3">
+                              <label for="basic-url" class="form-label">Add Consultation Notes</label>
+                              <textarea class="form-control" style="height: 100px"></textarea>
+                             
+                    
+                            </div>
+
+                            <div class="row mt-3">
+                              <div class="col-lg-4">&nbsp;</div>
+                              <div class="col-lg-4">
+                              
+                                <button type="button" class="btn btn-referals-location w100p">
+                                  <img src="assets/img/referals-tab-addnotes.svg" class="fleft"/>
+                                Add Notes</button>
+                              </div>
+                              <div class="col-lg-4">
+                              
+                                <button type="button" class="btn btn-referals-location btn-preview w100p">
+                                  <img src="assets/img/referals-tab-preview.svg" class="fleft"/>
+                                Preview</button>
+                              </div>
+                            </div>
+
+
+                            <div class="row mt-3">
+                              <label for="basic-url" class="form-label">Booking History last 2</label>
+                              <table class="table table-borderless">
+                                <thead>
+                                  <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Speclailists</th>
+                                    <th scope="col">Reason</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Status</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row"><img src="assets/img/Reports/corr-in-dr-icon1.jpg" ></th>
+                                    <td>Dr. Steve Jones <br><span>Endocrionologist</span></td>
+                                    <td>High Sugar</td>
+                                    <td>01/06/2022</td>
+                                    <td><img src="assets/img/referals-tab-tick.svg" ></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"><img src="assets/img/Reports/corr-in-dr-icon1.jpg" ></th>
+                                    <td>Dr. Steve Jones <br><span>Endocrionologist</span></td>
+                                    <td>High Sugar</td>
+                                    <td>01/06/2022</td>
+                                    <td><img src="assets/img/referals-tab-tick.svg" ></td>
+                                  </tr>
+
+                                  
+                                </tbody>
+                              </table>
+
+                              <label for="basic-url" class="form-label">more</label>
+                             
+                    
+                            </div>
+
+
+
+
+
+                          </div>
+                            </div>
+                
+
+                            <div class="tab-pane fade" id="bordered-justified-Communication" role="tabpanel" aria-labelledby="Communication-tab">
+                              <div class="row">
+                                <div class="card-body">
+                                  <div class="row">
+                                    <div class="col-lg-8">
+                                      <select class="form-select" aria-label="Default select example">
+                                     
+                                        <option value="1" selected="">Endocrionologist</option>
+                                     
+                                      </select>
+                                    </div>
+                                      <div class="col-lg-4">
+                                        <div class="dataTable-search">
+                                          <div class="cumm-callicon"><img src="assets/img/communication-call-icon.svg" class="img-fluid"></div>
+                                          <div class="cumm-searchicon"><img src="assets/img/communication-search-icon.svg" class="img-fluid"></div>
+                                          <div class="cumm-filter"><div class="filter">
+                                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots-vertical"></i></a>
+                                           
+                                          </div></div>
+            
+                                        </div>
+                                      </div>
+                                     
+                                  </div>
+
+
+                                  <div class="card-body bgwhite pt-3 comm-frame">
+                                    <div class="chat-frame">
+
+                                    <div class="row">
+                                      <div class="post-item communicationleft">
+                                        <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">                                       
+                                        <p>Hi Dr.Steve</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="post-item communicationright">
+                                        <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">
+                                        <p>Hi Dr.Steve</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="post-item communicationleft">
+                                        <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">                                       
+                                        <p>Any updates about Tony?</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="post-item communicationright">
+                                        <img src="assets/img/Progress-Monitor/patient.jpg" alt="" class="img-fluid">
+                                        <p>Tony was having breathing trouble last time. Tony was having breathing trouble last time. Tony was having breathing trouble last time.</p>
+                                      </div>
+                                    </div>
+    
+    
+                                  
+                              </div>
+
+                              <div class="addchat-frame">
+
+                                <div class="row">
+                                  <div class="col-lg-10">
+                                    <input type="text" class="form-control" placeholder="Enter Text">
+                                  </div>
+                                  <div class="col-lg-2">
+                                      <div class="chat-voiceicon">
+                                        <img src="assets/img/communication-voice-icon.svg" />
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+</div>
+                                  </div>
+                                  </div>
+                              </div>
+                          <!-- End Bordered Tabs Justified -->
+            
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </div><!-- End Default Tabs -->
+
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
